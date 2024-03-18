@@ -34,7 +34,7 @@ const checkPropertiesRecursively = async (dir) => {
 };
 
 
-const startDirectory = 'json';
+const startDirectory = './json';
 checkPropertiesRecursively(startDirectory)
   .then(errors => {
     if (errors.length > 0) {
