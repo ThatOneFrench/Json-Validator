@@ -1,0 +1,23 @@
+{
+  "name": "json-validator",
+  "version": "1.0.0",
+  "description": "check json file",
+  "main": "json-validator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThatOneFrench/Json-Validator.git"
+  },
+  "keywords": [
+    "Json",
+    "Validator"
+  ],
+  "author": "Millau",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ThatOneFrench/Json-Validator/issues"
+  },
+  "homepage": "https://github.com/ThatOneFrench/Json-Validator#readme"
+}
