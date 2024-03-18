@@ -34,12 +34,13 @@ const checkPropertiesRecursively = async (dir) => {
 };
 
 
-const startDirectory = './json';
+const startDirectory = '../json';
 checkPropertiesRecursively(startDirectory)
   .then(errors => {
     if (errors.length > 0) {
       console.log('Issues found:');
-      errors.forEach(error => console.log(error));
+      errors.forEach(error => console.error(error));
+      process.exit(1);
     } else {
       console.log('All check passed.');
     }
